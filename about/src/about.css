@@ -1,0 +1,5 @@
+.about-container{
+    display: flexbox;
+    flex-direction: column;
+    background-color:white ;
+}
