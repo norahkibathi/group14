@@ -7,8 +7,7 @@ function About() {
         <div className='about-container'>
             <div className='about-container'>
             <div className='about-image'>
-                        <img src="https://dam.bluenile.com/images/public/20488/Affordable_Engagement_Ring.jpeg" alt = "wee"/>;
-                        </div>
+                        <img src="https://dam.bluenile.com/images/public/20488/Affordable_Engagement_Ring.jpeg" alt = "wee"/>   </div>
                           <div className='about-text'>
                             <p>A few words</p>
                             <h1>About Us</h1>
@@ -45,8 +44,13 @@ function About() {
                           </div>   
                                               
             <div className='about-historyus'>
-                <h2>Our History</h2>
-                                    
+               
+            <div class="about-section">
+  <span><h3>ABOUT US</h3></span>
+  <h4>We are better than just a group of friends who love authenticity in jewelry.</h4>
+</div>
+
+                                             
                 <ul>
                     <li>
                         <strong>2010 - Established</strong>
