@@ -103,7 +103,7 @@ text-transform: capitalize;
 .about-historyus {
   display: flex;
   align-items: center; }
-}
+
 
 .about-historyus h2 {
   flex: 1; 
