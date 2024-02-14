@@ -5,24 +5,48 @@ import './about.css';
 function About() {
     return (
         <div className='about-container'>
+            <div className='about-container'>
             <div className='about-image'>
-            <img src ="" alt="profile" />
-                <div className='about-text'>
-                    <h1>About Us</h1>
-                </div>
+                        <img src="https://dam.bluenile.com/images/public/20488/Affordable_Engagement_Ring.jpeg" alt = "wee"/>;
+                        </div>
+                          <div className='about-text'>
+                            <p>A few words</p>
+                            <h1>About Us</h1>
+                                  </div>
             </div>
                        <div className='about-history'>
-                <h1>About the Founders</h1>
-                            <p>
-                    We started our journey in 2010 with a passion for delivering top-quality jewelry to our customers. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rhoncus eget enim eget tincidunt. In finibus nisi ex, eu interdum urna euismod sit amet. Morbi sollicitudin in magna sed tristique. Nulla pharetra sapien eros, sit amet bibendum nibh consectetur quis.
-                </p>
+                <div className='about-historyconet'>
+                    <p className='about-teamname'>Europhia Team</p>
+                    <h1 className='head-about'>ABOUT  <br/> THE Founders</h1>
+                    <p className='about-quote'>
+    Adorn yourself with jewels that mirror the brilliance within, <br/>for each gem whispers tales of resilience, elegance, and the beauty found in every journey. 
+  </p>
+                    <p>
+    At <span>Euphoria</span>, our team of founders shares a common background from Moranga School.<br />
+    Our collective vision revolves around showcasing and celebrating the rich authenticity of African heritage.
+  </p>
+  <p>
+    Driven by a passion for jewelry and a deep appreciation for African culture, we came together with the aim of creating a platform that highlights the beauty and diversity of African craftsmanship.
+  </p>
+  <p>
+    With our roots firmly planted in the values instilled at Moranga School, we are dedicated to offering exquisite jewelry pieces inspired by the intricate designs and traditions of Africa.
+  </p>
+  <p>
+    Join us as we embark on this journey to share the allure of African jewelry with the world, one stunning piece at a time.
+  </p>
+                        </div>
+                <div className='about-historyimage'>
+                    <img src="https://www.shutterstock.com/image-photo/smile-black-woman-portrait-african-600nw-2300500653.jpg" alt="weuh" />
+                </div>
+                           
+                            </div> 
                 <div className='about-secondimage'>
-                <img src='https://www.pinterest.com/pin/155303887805385288/' alt='Second Image'></img> 
-                          </div>
-                          </div>
+                <img src='https://websitedemos.net/blingg-jewelry-store-04/wp-content/uploads/sites/1119/2022/08/bg-03.jpg'></img> 
+                          </div>   
+                                              
             <div className='about-historyus'>
                 <h2>Our History</h2>
-                
+                                    
                 <ul>
                     <li>
                         <strong>2010 - Established</strong>
@@ -62,7 +86,7 @@ function About() {
                     </li>
                 </ul>
             </div>
-            </div>
+                    </div>
            );
 }
 
